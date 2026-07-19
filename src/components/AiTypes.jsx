@@ -51,7 +51,7 @@ const AiTypes = () => {
   };
 
   return (
-    <section id="types" className="app-container pt-16 overflow-hidden sm:overflow-visible">
+    <section id="types" className="app-container py-16 overflow-hidden sm:overflow-visible">
       <div className="text-center mb-12">
         <span className="section-subheader">AI Technologies</span>
         <h2 className="section-header">

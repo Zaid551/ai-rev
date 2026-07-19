@@ -37,6 +37,8 @@ html{
     @apply border-2 border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-6 py-3 rounded-lg font-medium text-center transition;
   }
   /* ---------- Cards ---------- */
+  
+  /* Ai Types cards */
   .ai-type-card{
     @apply bg-white rounded-xl shadow-lg overflow-hidden  transition-all duration-400 hover:shadow-xl hover:-translate-y-1
   }
@@ -49,6 +51,15 @@ html{
   .ai-type-card-tag{
     @apply inline-block rounded-full px-3 py-1 text-xs font-semibold;
   }
+  
+  /* Benefit cards */
+  .benefit-card {
+    @apply bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-primary/50 transition-all ;
+  }
+  .benefit-card-icon {
+    @apply w-12 h-12 rounded-lg flex items-center justify-center mb-4;
+  }
+
   /* ---------- Forms ---------- */
   /* ---------- Navigation ---------- */
   .nav-item{
