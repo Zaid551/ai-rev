@@ -33,11 +33,16 @@ const HeroSection = () => {
           </div>
         </div>
         {/* right content */}
-        <div className="relative w-full h-80 md:h-[600px] overflow-hidden rounded-2xl group transition-shadow duration-500 hover:shadow-[0_0_50px_rgba(168,85,247,0.3)]">
-          <img src="https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="hero section" 
-          className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"/>
-          <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/20 rounded-full  blur-xl"></div>
-          <div className="absolute -top-6 -right-6 w-32 h-32 bg-accent/20 rounded-full  blur-xl"></div>
+        <div className="relative w-full h-80 md:h-[600px] group">
+          <div className="w-full h-full overflow-hidden rounded-2xl transition-shadow duration-500 group-hover:shadow-[0_0_50px_rgba(168,85,247,0.3)]">
+            <img 
+              src="https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+              alt="hero section" 
+              className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            />
+          </div>
+          <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/20 rounded-full blur-xl z-[-1] pointer-events-none transition-all duration-700 group-hover:scale-125 group-hover:bg-primary/30"></div>
+          <div className="absolute -top-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-xl z-[-1] pointer-events-none transition-all duration-700 group-hover:scale-125 group-hover:bg-accent/30"></div>
         </div>
       </div>
     </section>
