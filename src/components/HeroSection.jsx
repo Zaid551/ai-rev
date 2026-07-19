@@ -33,7 +33,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* right content */}
-        <div className="relative w-full h-80 md:h-[600px] group">
+        <div className="relative w-full h-80 md:h-150 group">
           <div className="w-full h-full overflow-hidden rounded-2xl transition-shadow duration-500 group-hover:shadow-[0_0_50px_rgba(168,85,247,0.3)]">
             <img 
               src="https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
