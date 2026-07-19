@@ -29,11 +29,12 @@ html{
 /* -------Components Styles--------- */
 @layer components{
   /* ---------- Buttons ---------- */
-  .but-primary{
-    @apply bg-primary hover:bg-primary/90 px-6 py-3 text-white rounded-lg font-medium hover:shadow-lg active:bg-primary/90 hover:cursor-pointer text-sm transition  dark:text-gray-800
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium text-center transition shadow-lg hover:shadow-primary/30;
   }
-  .but-outline{
-    @apply border-2 border-gray-300 hover:border-primary bg-secondary px-6 py-2 text-gray-700 hover:text-primary/90 rounded-xl font-semibold hover:shadow-lg active:bg-secondary/90 hover:cursor-pointer text-sm transition  dark:text-gray-800
+
+  .btn-outline {
+    @apply border-2 border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-6 py-3 rounded-lg font-medium text-center transition;
   }
   /* ---------- Cards ---------- */
   /* ---------- Forms ---------- */
@@ -54,5 +55,9 @@ html{
   /* ---------- Sections ---------- */
   .gradient-text{
     @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+  /* ---------- Avatars ---------- */
+  .avatar{
+    @apply inline-block w-10 h-10 rounded-full ring-2 ring-white object-cover
   }
 }
