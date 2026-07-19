@@ -37,6 +37,18 @@ html{
     @apply border-2 border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-6 py-3 rounded-lg font-medium text-center transition;
   }
   /* ---------- Cards ---------- */
+  .ai-type-card{
+    @apply bg-white rounded-xl shadow-lg overflow-hidden  transition-all duration-400 hover:shadow-xl hover:-translate-y-1
+  }
+  .ai-type-card-image{
+    @apply w-full h-48 flex items-center justify-center bg-gradient-to-r;
+  }
+  .ai-type-card-icon{
+    @apply w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full text-primary mr-3;
+  }
+  .ai-type-card-tag{
+    @apply inline-block rounded-full px-3 py-1 text-xs font-semibold;
+  }
   /* ---------- Forms ---------- */
   /* ---------- Navigation ---------- */
   .nav-item{
@@ -53,6 +65,15 @@ html{
   }
 
   /* ---------- Sections ---------- */
+  .section-header{
+    @apply font-bold text-3xl md:text-4xl mt-2
+  }
+  .section-subheader{
+    @apply font-semibold text-primary
+  }
+  .section-description{
+    @apply mt-4 mx-auto max-w-2xl
+  }
   .gradient-text{
     @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
   }
