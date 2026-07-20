@@ -77,7 +77,7 @@ const resources = [
           <div>
             <h3 className="footer-title">Stay Updated</h3>
             <p className="footer-newsletter-desc">Subscribe to our newsletter for the latest AI insights and company news.</p>
-            <form className="mt-4 flex flex-col sm:flex-row gap-2">
+            <form className="mt-4 flex flex-col sm:flex-row gap-2 w-full max-w-full">
               <input type="email" placeholder="Your email" className="footer-newsletter-input" />
               <button className="footer-newsletter-btn"> Subscribe </button>
             </form>
