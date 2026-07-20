@@ -110,4 +110,47 @@ html{
   .avatar{
     @apply inline-block w-10 h-10 rounded-full ring-2 ring-white object-cover
   }
+  /* ---------- Footer ---------- */
+  footer {
+    @apply bg-gradient-to-b from-dark to-gray-900 text-white pt-16 pb-8;
+  }
+  .footer-description{
+    @apply text-gray-400 leading-relaxed
+  }
+  .footer-social-link {
+    @apply text-gray-400 hover:text-white transition hover:-translate-y-1;
+  }
+  .footer-title{
+    @apply font-semibold text-lg text-white; 
+  }
+  .footer-link-list{
+    @apply mt-6 space-y-3
+  }
+  .footer-link {
+    @apply text-gray-400 hover:text-primary hover:translate-x-2 transition-all flex items-center;
+  }
+  .footer-newsletter-input {
+    @apply px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
+  .footer-newsletter-btn {
+    @apply bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-lg font-medium transition whitespace-nowrap;
+  }
+  .footer-newsletter-desc {
+    @apply mt-6 text-gray-400;
+  }
+  .footer-newsletter-privacy {
+    @apply mt-2 text-xs text-gray-500;
+  }
+  .footer-bottom-bar{
+    @apply border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center;
+  }
+  .footer-bottom-text{
+    @apply text-gray-500 text-sm
+  }
+  .footer-bottom-link-group{
+    @apply flex space-x-6 mt-4 md:mt-0
+  }
+  .footer-bottom-link{
+    @apply text-gray-500 hover:text-gray-300  text-sm
+  }
 }
